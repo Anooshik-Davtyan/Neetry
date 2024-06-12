@@ -8,7 +8,6 @@ export class Constants {
         ADDRESS:'Los Angeles, CA 90001',
         MOBILE_NUMBER: '(000) 000-0000',
         STREET_NUMBER: '45',
-        STREET: 'Pickedly',
         STATE: 'CA',
         CITY: 'Los Angeles',
         ZIP: '90001',
