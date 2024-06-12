@@ -10,7 +10,7 @@ describe('Mobile Responsiveness Testing for Sign In Functionality', () => {
     const randomEmail = Constants.randomEmail();
     const randomString = Constants.randStr();
 
-    const viewports = [
+    const viewports =  [
         { device: 'iPhone 12 Pro', width: 390, height: 844 },
         { device: 'iPhone 12 Pro Max', width: 428, height: 926 },
         { device: 'iPhone 13 Pro', width: 390, height: 844 },
