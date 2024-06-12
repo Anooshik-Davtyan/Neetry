@@ -49,7 +49,7 @@ root
 1. **Clone the repository**
 ```
 git clone https://github.com/Anooshik-Davtyan/Nueva.git
-cd Nueva
+cd Neetry
 ```
 2. **Open Cypress**
 ```
