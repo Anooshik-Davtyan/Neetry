@@ -4,8 +4,8 @@
 root
 ├── cypress/
 │   ├── e2e/
-|   |   ├── signIn.cy.js
-│   │   ├── signUp.cy.js
+|   |   ├── signIn-functionality.cy.js
+│   │   ├── signUp-functionality.cy.js
 |   ├── support/
 |   |   ├── Methods
 |   |   |   ├── constants.js
