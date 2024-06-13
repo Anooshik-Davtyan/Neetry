@@ -22,23 +22,23 @@ class signUpFunctionality {
     };
 
     typeUserName(name) {
-        select.SignUpNameField().type(name);
+        select.SignUpNameField().should('be.visible').type(name);
     }
 
     typeUserEmail(email) {
-        select.SignUpEmailField().type(email);
+        select.SignUpEmailField().should('be.visible').type(email);
     }
 
     clickOnSignUpButton() {
-        select.SignUpButton().click();
+        select.SignUpButton().should('be.visible').click();
     }
 
     clickOnRadioButton(index) {
-        select.genderRadioButton(index).click();
+        select.genderRadioButton(index).should('be.visible').click();
     }
 
     typeUserPassword(password) {
-        select.passwordField().clear().type(password);
+        select.passwordField().should('be.visible').clear().type(password);
     }
 
     fillDate(day, month, year) {
@@ -48,27 +48,27 @@ class signUpFunctionality {
     }
 
     clickOnNewsLetterCheckbox() {
-        select.newsLetterCheckbox().click();
+        select.newsLetterCheckbox().should('be.visible').click();
     }
 
     clickOnOptinCheckbox() {
-        select.optinCheckbox().click();
+        select.optinCheckbox().should('be.visible').click();
     }
 
     fillAddressInformationFirstName(name) {
-        select.addressInformationFirstName().clear().type(name);
+        select.addressInformationFirstName().should('be.visible').clear().type(name);
     }
 
     fillAddressInformationLastName(name) {
-        select.addressInformationLastName().clear().type(name);
+        select.addressInformationLastName().should('be.visible').clear().type(name);
     }
 
     typeCompanyName(companyName) {
-        select.company().clear().type(companyName);
+        select.company().should('be.visible').clear().type(companyName);
     }
 
     fillFirstAddress(address) {
-        select.firstAddress().clear().type(address);
+        select.firstAddress().should('be.visible').clear().type(address);
     }
 
     selectCounty(county) {
@@ -76,31 +76,31 @@ class signUpFunctionality {
     }
 
     fillState(state) {
-        select.state().clear().type(state);
+        select.state().should('be.visible').clear().type(state);
     }
 
     fillZipCode(zip) {
-        select.zipCode().clear().type(zip);
+        select.zipCode().should('be.visible').clear().type(zip);
     }
 
     fillCity(city) {
-        select.city().clear().type(city);
+        select.city().should('be.visible').clear().type(city);
     }
 
     fillMobileNumber(number) {
-        select.mobileNumber().clear().type(number);
+        select.mobileNumber().should('be.visible').clear().type(number);
     }
 
     clickOnCreateAccountButton() {
-        select.createAccountButton().click();
+        select.createAccountButton().should('be.visible').click();
     }
 
     clickOnContinueButton() {
-        select.continueButton().click();
+        select.continueButton().should('be.visible').click();
     }
 
     deleteAccount() {
-        select.shopMenu().contains('Delete Account').click();
+        select.shopMenu().should('be.visible').contains('Delete Account').click();
     }
 
     fillFields(selector, randText, randomEmail) {
