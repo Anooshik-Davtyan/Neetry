@@ -27,8 +27,8 @@ root
 ```
 - `cypress/`: This directory contains the Cypress test files
     - `e2e/`: Contains test files
-        - `signIn.cy.js/`: Contains test cases on sign in functionality
-        - `signUp.cy.js/`: Contains test cases on sign up functionality
+        - `signIn-functionality.cy.js/`: Contains test suite as focusing on Mobile Responsiveness Testing along with Sign-In Functionality across different devices
+        - `signUp-functionality.cy.js/`: Contains test suite as focusing on Mobile Responsiveness Testing along with Sign-Up Functionality across different devices
     - `support/`: Contains all config files
         - `Methods`/: Contains test data and validation functions
             - `constants.js`/: Contains test data
@@ -48,7 +48,7 @@ root
 
 1. **Clone the repository**
 ```
-git clone https://github.com/Anooshik-Davtyan/Nueva.git
+git clone https://github.com/Anooshik-Davtyan/Neetry.git
 cd Neetry
 ```
 2. **Open Cypress**
